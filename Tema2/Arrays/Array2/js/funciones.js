@@ -33,3 +33,4 @@ console.log(numeros2);
     return num1 - num2;
 }));
 console.log(numeros2.sort((num1,num2)  => num1 - num2));
+*/
