@@ -46,3 +46,61 @@
     console.log(todosInputs);
 
 // 7. Los items de lista de la clase ‘important’ (sólo los LI)
+    //1 opcion
+    let lista = document.getElementsByTagName('UL')[0];
+    let li=lista.getElementsByClassName('important');
+    console.log(li);
+    //2 opcion
+    li = document.querySelectorAll('li.important');
+    console.log(li);
+    //3 opcion
+    li = document.querySelectorAll('ul li.important');
+    console.log(li);
+
+    console.log("-----------------------------------------------------------------------------");
+    console.log("-----------------------------------------------------------------------------");
+    console.log("-----------------------------------------------------------------------------");
+    console.log("-----------------------------------------------------------------------------");
+
+   //EJERCICIO: Siguiendo con la página de ejemplo obtén desde la consola, al menos de 2 formas diferentes:
+   // 1. El primér párrafo que hay dentro del div ‘lipsum’
+        console.log("**** 1");
+        //1 opcion creando el parrafo que pide y llamandolo
+        let p1 = document.getElementById('lipsum').firstElementChild;
+        console.log(p1);
+        //2 opcion creando div y luego llamando el primer elemento
+        let lipsumDiv = document.getElementById('lipsum');
+        console.log(lipsumDiv.firstElementChild);
+        //3 opcion creo variable con el array de parrafos y llamo la primera posicion
+        let parr1 = lipsumDiv.getElementsByTagName('P')[0];
+        console.log(parr1);
+    // 2. El segundo párrafo de ‘lipsum’
+        console.log("**** 2");
+        // siguiente elemento del parrafo 1
+        console.log(p1.nextElementSibling);
+        console.log(p1.nextElementSibling.innerHTML);// innerHTML para sacar contenido
+        
+   // 3. El último item de la lista
+        console.log("**** 3");
+        //1 opcion creamos  lista con el array de parrafos
+        let listaParrafos = lipsumDiv.children;
+        console.log(listaParrafos);
+        // llamamos el ultimo elemento de parrafos
+        console.log(lipsumDiv.lastElementChild);
+        //llamamos la ultima posicion de la lista
+        console.log(listaParrafos[listaParrafos.length-1]);
+
+   // 4. El elemento label de ‘Escoge sexo’
+        console.log("**** 4");
+        //1 opcion creamos un array con los elementos label y llamamos la ultima posicion
+        let arrayEtiqueta = Array.from(document.getElementsByTagName('label'));
+        console.log(arrayEtiqueta[arrayEtiqueta.length-1]);
+        console.log(arrayEtiqueta[3].innerHTML);// TODO CONTENIDO
+        console.log(arrayEtiqueta[3].textContent);// SOLO TEXTO
+        console.log(arrayEtiqueta[3]);
+
+
+
+
+    
+
