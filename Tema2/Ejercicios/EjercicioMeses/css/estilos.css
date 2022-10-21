@@ -20,3 +20,22 @@ h1 {
   opacity: 80%;
   border-radius: 6px;
 }
+
+#botonUnico{
+  background-color: black;
+  color: white;
+  width: 5%;
+}
+#botonUnico{
+  margin-left: 47.5%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+ol{
+  background-color: #1b0c10;
+  height: 220px;
+  padding: 35px;
+  width: 100px;
+  opacity: 80%;
+  margin: auto;
+}
