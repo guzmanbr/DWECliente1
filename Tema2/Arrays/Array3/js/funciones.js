@@ -1,3 +1,4 @@
+//pag 5pdf
 //1. El elemento con id ‘input2’
     //1 forma
     let in2 = document.getElementById('input2');// creamos varable y guardamos en ella el elemento con id input2
@@ -62,7 +63,7 @@
     console.log("-----------------------------------------------------------------------------");
     console.log("-----------------------------------------------------------------------------");
 
-   //EJERCICIO: Siguiendo con la página de ejemplo obtén desde la consola, al menos de 2 formas diferentes:
+//EJERCICIO: Siguiendo con la página de ejemplo obtén desde la consola, al menos de 2 formas diferentes: pag6pdf
    // 1. El primér párrafo que hay dentro del div ‘lipsum’
         console.log("**** 1");
         //1 opcion creando el parrafo que pide y llamandolo
@@ -94,7 +95,7 @@
         console.log("**** 4");
         //1 opcion creamos un array con los elementos label y llamamos la ultima posicion
         let arrayEtiqueta = Array.from(document.getElementsByTagName('label'));
-        console.log(arrayEtiqueta[arrayEtiqueta.length-1]);
+        console.log(arrayEtiqueta[arrayEtiqueta.length-1]);//la ultima posicion
         console.log(arrayEtiqueta[3].innerHTML);// TODO CONTENIDO
         console.log(arrayEtiqueta[3].textContent);// SOLO TEXTO
         console.log(arrayEtiqueta[3]);
