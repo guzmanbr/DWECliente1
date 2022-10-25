@@ -7,9 +7,18 @@ html {
   h1 {
     color: white;
     padding: 10px;
+    text-align: center;
   }
   body{
     color: white;
   }
+
+ #rombo{
+  min-width: 200px;
+  min-height: 200px;
+  background-color: #1b0c1079;
+  border: none;
+  border-radius: 4px;
+ }
   
 
