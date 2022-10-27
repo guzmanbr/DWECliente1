@@ -10,25 +10,25 @@
         <title>Tarea06</title>
     </head>
     <body>
-        <h1>Tarea 06</h1>
-        <div class="container">
+        
+
             <form id="form">
-                <div>
-                    
+                <div id="container2">
+                    <h1>Rombo Hueco</h1>
                     <br>
-                    <input type="text" name="numFilas" id="idFilas">
+                    <div id="input">
+                        <label for="idFilas">Indique el número de filas:</label>
+                        <input type="number" name="filas" id="idFilas"  min="1" max="23" onchange="rombo()">
+                    </div>
                     <br>
                     <br>
                     <div id="rombo">
-
+                        <p id="resultado"></p>
                     </div>
-
                 </div>
+
             </form>
-            <div>
-                <ul id="resultado"></ul>
-            </div>
-        </div>
+
         <script src="js/funciones.js"></script>
     </body>
 

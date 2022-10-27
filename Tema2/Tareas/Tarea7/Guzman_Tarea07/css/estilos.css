@@ -1,0 +1,49 @@
+html {
+    font-family: "helvetica neue";
+    background: url(fondo.png), #0b1c55;
+    background: url(fondo.png),linear-gradient(to left, #060b51, #2578ab);
+  }
+  p{
+    color: yellow;
+  }
+  h1 {
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  body{
+    color: rgb(255, 255, 255);
+  }
+
+ .container1{
+  position: absolute;
+  width: 100%;
+  min-height:400px;
+ }
+ #container2{
+  position: relative;
+  width: 50%;
+  min-height: 200px;
+  background-color: rgba(0, 255, 255, 0.3);
+  border-radius: 4px;
+  margin-top: 5%;
+  margin-left: 25%;
+  margin-bottom: 100px;
+  box-shadow: #2578ab;
+}
+
+#rombo{
+  width: fit-content;
+  margin-left: 10%;
+}
+
+#input{
+  width: fit-content;
+  margin: auto;
+}
+#idFilas{
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.338);
+}
+
+

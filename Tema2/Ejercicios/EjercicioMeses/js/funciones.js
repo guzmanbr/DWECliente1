@@ -43,7 +43,6 @@ function quitarMes() {
 function anadirQitarMes() {
 
     if (avanza == true && conta < 12) {
-        
         let mes = meses[conta];
         let liElement = document.createElement('li');
         let contenidoLi = document.createTextNode(mes);
