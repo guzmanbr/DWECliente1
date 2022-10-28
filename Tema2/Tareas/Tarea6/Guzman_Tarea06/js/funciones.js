@@ -1,8 +1,7 @@
 
 function rombo() {
-    let result=document.getElementById('resultado');
     let filas = parseInt(document.getElementById("idFilas").value);
-    document.getElementById("idFilas").textContent = filas;
+    let result=document.getElementById('resultado');
     let conta =0;
 
     if(conta == 0){
