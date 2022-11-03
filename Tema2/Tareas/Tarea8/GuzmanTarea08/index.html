@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tarea08</title>
+        <link rel="stylesheet" href="css/estilos.css">
+        
+    </head>
+    <body>
+
+        <h1>Tarea 08</h1>
+        <div>
+            <input type="button" value="Aplicar CSS al HTML" onclick="aplicarCSS()">
+            <input type="button" value="Qitar CSS al HTML" onclick="quitarCSS()">
+            <br><br>
+            <input type="button" value="Aplicar CSS al H1" onclick="aplicarH1()">
+            <input type="button" value="Quitar CSS al H1" onclick="quitarH1()">
+            <br><br>
+            <input type="button" value="Aplicar CSS al container" onclick="aplicarDivCont()">
+            <input type="button" value="Quitar CSS al container" onclick="quitarDivCont()">
+            <br><br>
+            <input type="button" value="Aplicar CSS al div" onclick="aplicarRombo()">
+            <input type="button" value="Quitar CSS al div" onclick="quitarRombo()">
+        </div>
+        <div id="container">
+            <h1>Rombo Hueco</h1>
+            <br>
+            <div id="input">
+                <label for="idFilas">Indique el número de filas:</label>
+                <input type="number" name="filas" id="idFilas"  min="1" max="23" onchange="actualizarRombo()">
+            </div>
+            <br>
+            <br>
+            <div id="rombo">
+                <p id="resultado"></p>
+            </div>
+        </div>
+
+        <script src="js/funciones.js"></script>
+    </body>
+</html>

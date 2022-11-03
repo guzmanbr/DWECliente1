@@ -1,0 +1,37 @@
+  .claseHtml{
+    font-family: "helvetica neue";
+    background: url(fondo.png), #0b1c55;
+    background: url(fondo.png),linear-gradient(to left, #060b51, #2578ab);
+    color: white;
+  }
+  
+  .claseH1{
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+
+
+ .claseContainer{
+  position: relative;
+  width: 70%;
+  min-height: 200px;
+  background-color: rgba(0, 255, 255, 0.3);
+  border-radius: 4px;
+  margin-top: 5%;
+  margin-left: 15%;
+  margin-bottom: 100px;
+  box-shadow: #2578ab;
+}
+
+.claseDivRombo{
+  width: fit-content;
+  margin-left: 10%;
+}
+
+.claseInput{
+  width: fit-content;
+  margin: auto;
+}
+
+
