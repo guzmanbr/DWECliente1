@@ -4,7 +4,7 @@ function pintar() {
   const arrayColores=['pink','red','blue','green','black','purple'];
   this.style.backgroundColor=arrayColores[conta];
   conta++;
-  if (conta==6) {
+  if (conta==arrayColores.length) {
     conta=0;
   }
 }

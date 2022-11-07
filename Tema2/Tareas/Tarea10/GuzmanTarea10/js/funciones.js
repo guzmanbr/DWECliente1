@@ -9,11 +9,6 @@ function pintar() {
   }
 }
 
-const arrayTd = Array.from(document.getElementsByTagName('td'));
-  arrayTd.forEach(element =>{
-  element.addEventListener('dblclick',pintar);
-})
-
 let conta2=1;
 function escribir() {
   //el if controla que solo controle el orden de las 4 primeras posiciones.
@@ -22,11 +17,16 @@ function escribir() {
     conta2++;    
   }
 }
+const arrayTd = Array.from(document.getElementsByTagName('td'));
+  arrayTd.forEach(element =>{
+  element.addEventListener('dblclick',pintar);
+  element.addEventListener('dblclick',escribir);
+})
 
-document.getElementsByTagName('td')[0].addEventListener('dblclick',escribir);
-document.getElementsByTagName('td')[1].addEventListener('dblclick',escribir);
-document.getElementsByTagName('td')[2].addEventListener('dblclick',escribir);
-document.getElementsByTagName('td')[3].addEventListener('dblclick',escribir);
+// document.getElementsByTagName('td')[0].addEventListener('dblclick',escribir);
+// document.getElementsByTagName('td')[1].addEventListener('dblclick',escribir);
+// document.getElementsByTagName('td')[2].addEventListener('dblclick',escribir);
+// document.getElementsByTagName('td')[3].addEventListener('dblclick',escribir);
 
 
 
