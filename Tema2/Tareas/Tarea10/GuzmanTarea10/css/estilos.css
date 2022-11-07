@@ -1,0 +1,28 @@
+  html{
+    font-family: "helvetica neue";
+    background: url(fondo.png), #550b1b;
+    background: url(fondo.png),linear-gradient(to left, #1b0c10, #550b1b);
+    color: white;
+  }
+  
+  h1{
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+
+  table{
+    margin: auto;
+    border: 2px solid;
+    border-collapse: collapse;
+  }
+  td{
+    border: 2px solid;
+  }
+
+  td{
+    width: 175px;
+    height: 175px;
+    text-align: center;
+  }
+    
