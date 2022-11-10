@@ -14,9 +14,13 @@ html {
   body{
     color: white;
   }
+  main{
+    width: 100%;
+  }
   #diana{
     height: 40px;
     background-color: rgba(0, 0, 0, 0.617);
+    width: 100%;
   }
 
   #div1{
@@ -45,8 +49,8 @@ html {
     background-color: red;
   }
   #hueco{
-    height: 600px;
-    background-color: pink;
+    height: 480px;
+    background-color: rgba(255, 192, 203, 0.671);
   }
   #pistola{
     height: 50px;
