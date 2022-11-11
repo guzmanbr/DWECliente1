@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!-- Al hacer doble clic en cada celda de la tabla:
+    • Siga cambiando el color de fondo de la celda que sufre el evento.
+    • Cambie el contenido del innerHTML de ese elemento TD para que se vea el contenido previo del innerHTML precedido por un número que indique el orden en el que el usuario ha hecho doble clic. -->
+
+<html lang="es">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="shortcut icon" href="#" type="image/x-icon">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tarea 11</title>
+    </head>
+
+    <body>
+
+        <header>
+            <div id="encabezado">
+                <h1>Tarea 11 - Juego Diana</h1>
+            </div>
+        </header>
+
+        <div id="divDiana">
+            <div id="centroDiana">
+
+            </div>
+        </div>
+
+        <div id="divHueco">
+            <div id="divFlecha">
+            </div>
+
+            <p id="aciertos"></p>
+        </div>
+
+        <div style="display:none">
+            <audio id="audio_acierto" class="audio" controls> 
+                <source type="audio/wav" src="sonidos/chapa_jp01897.wav ">
+            </audio>
+            
+            <audio id="audio_error" class="audio" controls> 
+                <source type="audio/wav" src="sonidos/rozando_pgj01887.wav">
+            </audio>
+            
+            <audio id="audio_cerca" class="audio" controls> 
+                <source type="audio/wav" src="sonidos/fallo_pj01699.wav">
+            </audio>
+        </div>
+
+        <script src="js/funciones.js"></script>
+    </body>
+</html>
