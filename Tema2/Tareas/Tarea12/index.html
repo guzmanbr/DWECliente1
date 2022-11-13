@@ -1,8 +1,4 @@
 <!DOCTYPE html>
-<!-- Al hacer doble clic en cada celda de la tabla:
-    • Siga cambiando el color de fondo de la celda que sufre el evento.
-    • Cambie el contenido del innerHTML de ese elemento TD para que se vea el contenido previo del innerHTML precedido por un número que indique el orden en el que el usuario ha hecho doble clic. -->
-
 <html lang="es">
     
     <head>
@@ -11,7 +7,7 @@
         <link rel="shortcut icon" href="#" type="image/x-icon">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/estilos.css">
-        <title>Tarea 11</title>
+        <title>Tarea 12</title>
     </head>
 
     <body>
@@ -34,6 +30,18 @@
             <div id="fallos"></div>
         </div>
         
+        <input type="button" value="Desactivar Sonido" id="btnsonido">
+        <input type="button" value="Reniciar marcador" id="btnmarcador">
+        <input type="number" name="velocidadDiana" id="velocidadDiana" placeholder="Velocidad Diana" min="5" onchange="cambiarVelocidad()"> 
+        <input type="number" name="diametroDiana" id="diametroDiana" placeholder="Diametro Diana" min="20" onchange="cambiarDiametro() , dibujarDiana()">
+        <input type="number" name="velocidadFlecha" id="velocidadFlecha" placeholder="Velocidad Flecha" min="5" max="80" onchange="cambiarVelocidadFlecha()">
+        
+        <label for="checkAciertos1">3 Aciertos</label> 
+        <input type="checkbox" name="checkAciertos1" id="checkAciertos1">
+        <label for="checkAciertos2">6 Aciertos</label>
+        <input type="checkbox" name="checkAciertos2" id="checkAciertos2">
+
+
         <div style="display:none">
             <audio id="audio_acierto" class="audio" controls> 
                 <source type="audio/wav" src="sonidos/chapa_jp01897.wav ">
@@ -47,7 +55,6 @@
                 <source type="audio/wav" src="sonidos/fallo_pj01699.wav">
             </audio>
         </div>
-
-        <script src="js/funciones.js"></script>
+        <script src="js/funciones.js"></script> 
     </body>
 </html>
