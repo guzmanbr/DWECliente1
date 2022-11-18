@@ -3,6 +3,7 @@
     background: url(fondo.png), #0b1c55;
     background: url(fondo.png),linear-gradient(to left, #060b51, #2578ab);
     color: white;
+    justify-content: right;
   }
   
   .claseH1{

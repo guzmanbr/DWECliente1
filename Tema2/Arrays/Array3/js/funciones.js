@@ -101,7 +101,3 @@
         console.log(arrayEtiqueta[3]);
 
 
-
-
-    
-
