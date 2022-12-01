@@ -1,6 +1,6 @@
 document.body.style.backgroundColor="#550b1b";
 
-const diametrosArray=[80,34,50,120,8,62,17];
+const diametrosArray=[80,34,50,120,88,162,17];
 const coloresArray=[
                         'linear-gradient(to bottom, #2196f3, #009688)', 'linear-gradient(to left, #D196f3, #539688)',  
                         'linear-gradient(to top, #5196f3, #709688)','linear-gradient(to right, #4196f3, #909688)', 
@@ -9,6 +9,7 @@ const coloresArray=[
 let contColor= 0; 
 let contDiametro = 0; 
 let arrayBolas = [];
+
 
 let boton=document.createElement('input');
 
@@ -24,7 +25,7 @@ boton.style.height="50px";
 boton.setAttribute('id','idBoton');
 document.body.appendChild(boton);
 
-//Inicializo las variables que voya utilizar
+//Inicializo las variables que voy a utilizar
 let idBola=0;
 let conta=0;
 let diametro=0;
@@ -47,12 +48,11 @@ function crearNuevaBola(){
     bolaNueva.style.float='left';
     bolaNueva.innerHTML=idBola;
     conta++;
-    if (conta == 6) {
+    if (conta === 5) {
         conta=0;
     }
     document.body.appendChild(bolaNueva);
 }
-
 boton.addEventListener('click',crearNuevaBola);
 
 

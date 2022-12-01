@@ -1,5 +1,6 @@
 document.body.style.backgroundColor='grey';
 document.getElementsByTagName('h1')[0].style
+
 //creo div de las listas , y en el introduzco las listas y meto el div en el body
 let contList= document.createElement('div');
 contList.style.display="flex";
