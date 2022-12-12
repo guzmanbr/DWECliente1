@@ -1,5 +1,3 @@
-
-
 //Funcion para devolver euros
 Number.prototype.moneda = function (){
     return this.toLocaleString('de-DE', {style:'currency', currency:'EUR'});
@@ -20,9 +18,6 @@ class Producto{
         return `${this.nombre} (${this.categoria}): ${this.unidades} uds x ${this.precio.moneda()} = ${(this.unidades*this.precio).moneda()}`;
     }
 }
-
-
-
 
 
 class Television extends Producto{
