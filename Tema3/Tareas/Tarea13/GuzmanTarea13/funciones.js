@@ -1,4 +1,3 @@
-
 //Funcion para devolver euros ------------------------------
 Number.prototype.moneda = function (){
     return this.toLocaleString('de-DE', {style:'currency', currency:'EUR'});
@@ -19,7 +18,6 @@ class Persona{
         this._edad = edad;
         this._id = ++Persona.ContaPersonas; //creo un id autoincremental        
     }
-
     //Get Set Nombre
     get nombre(){
         return this._nombre = this._nombre.charAt(0).toUpperCase()+ this._nombre.substring(1,this._nombre.length).toLowerCase();
@@ -27,7 +25,6 @@ class Persona{
     set nombre(nombre){
         return this._nombre = nombre;
     }
-
     //Get Set Apellido
     get apellido(){
         return this._apellido = this._apellido.charAt(0).toUpperCase()+ this._apellido.substring(1,this._apellido.length).toLowerCase();
@@ -35,7 +32,6 @@ class Persona{
     set apellido(apellido){
         return this._apellido = apellido;
     }
-
     //Get Set Edad
     get edad(){
         return this._edad;
@@ -43,23 +39,20 @@ class Persona{
     set edad(edad){
         return this._edad = edad;
     }
-
     //Funcion para mostrar la informacion de cada objeto en el formato que quiero.
     toString(){
         return `${this._id}: \n\t\t ${this.nombre} ${this.apellido} \n\t\t Edad:${this._edad}`;
     }
 }
 
-
 // Clase Empleado ------------------------------------------------------------------
 class Empleado extends Persona{
-
-    static ContaEmpleados = 200;// id de empleado
-    //creo un constructor con sus propiedades
+    static ContaEmpleados = 200;// Id de empleado
+    //Creo un constructor con sus propiedades
     constructor(nombre,apellido,edad,sueldo,id){
-        super(nombre,apellido,edad,id);//propiedades heredadas
+        super(nombre,apellido,edad,id);//Propiedades heredadas
         this._sueldo = sueldo;
-        this._idEmpleado = ++Empleado.ContaEmpleados; //creo un id autoincremental
+        this._idEmpleado = ++Empleado.ContaEmpleados; //Creo un id autoincremental
     }
     toString() {
         return "Empleado " + `${this._idEmpleado}: \n\t\t ${this.nombre} ${this.apellido} \n\t\t Edad:${this._edad}`+ "\n\t\t Sueldo:" + this._sueldo;
@@ -68,7 +61,6 @@ class Empleado extends Persona{
 
 // Clase Cliente --------------------------------------------------------------------
 class Cliente extends Persona{
-
     static ContaCliente = 300; // id de Cliente
     //creo un constructor con sus propiedades
     constructor(nombre,apellido,edad,registro,id){
