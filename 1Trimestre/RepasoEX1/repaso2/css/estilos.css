@@ -1,0 +1,10 @@
+html {
+    background-color: #2196f3;
+    min-height: 1000px;
+    font-family: "helvetica neue";
+    background: url(fondo.png), #ffffff;
+    background: url(fondo.png),-webkit-gradient(linear, right top, left top, from(#d7d7d7), to(#9a9999));
+  }
+
+  
+
