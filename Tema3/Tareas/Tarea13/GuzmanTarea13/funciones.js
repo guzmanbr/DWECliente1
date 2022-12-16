@@ -9,7 +9,7 @@ class Persona{
     static get MAX_PER(){
         return 106;
     }
-    static ContaPersonas = 100 // id de persona
+    static ContaPersonas = 100; // id de persona
 
     //Creo un constructor con sus atributos
     constructor(nombre,apellido,edad){
