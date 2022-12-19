@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validadion Formularios</title>
+</head>
+<body>
+    <h1>Validadion Formularios</h1>
+    <form action="" method="get">
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" id="nombre" placeholder="Nombre" required="required">
+        <br><br>
+        <label for="apellido">Apellidos:</label>
+        <input type="text" name="apellido" id="apellido" placeholder="Apellido" required="true">
+        <br><br>
+        <label for="pass">Contraseña:</label>
+        <input type="password" name="pass" id="pass" placeholder="Contraseña">
+        <br><br>
+        <input type="submit" value="Enviar" name="enviar">
+        <input type="submit" value="Enviar sin validar" name="enviarSinValidar" formnovalidate="formnovalidate"> 
+    </form>
+    
+</body>
+</html>
