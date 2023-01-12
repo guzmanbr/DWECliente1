@@ -6,7 +6,7 @@
 // document.cookie="cuqui1="+prueba1;//crea una cookie y le asigno un valor
 
 // let prueba2 = "cigüeña";
-// document.cookie = "cuqui2=" + encodeURIComponent(prueba2);//creao una cookie encriptada
+// document.cookie = "cuqui2=" + encodeURIComponent(prueba2);//crea una cookie encriptada
 
 // console.log(document.cookie);
 
