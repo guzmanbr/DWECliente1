@@ -12,7 +12,7 @@ console.log (persona1.toString());
 console.log (empleado1.toString());
 console.log (cliente1.toString());
 cliente1.fechaRegistro=[1998,4,30];
-let empleado2 = new Empleado ( persona1.nombre, persona1.apellido, persona1.edad, 30000 );
+let empleado2 = new Empleado ( persona1.nombre, persona1.apellido, persona1.edad, 300 );
 console.log (empleado2.toString());
 let persona2 = new Persona ('Alejandro', 'Muñoz', 30);
 console.log (persona2.toString());
