@@ -1,0 +1,24 @@
+
+h1{
+    text-align: center;
+}
+#cont{
+    display: flex;
+    justify-content: center;
+}
+#cont > form{
+    margin: 5%;
+    border: solid 1px black;
+    width: 40%;
+    padding: 15px;
+}
+#registrar{
+    justify-content: center;
+}
+#registrar > div{
+    margin-bottom: 15px;
+}
+
+#lista{
+
+}
