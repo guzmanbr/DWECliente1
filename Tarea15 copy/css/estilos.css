@@ -1,0 +1,52 @@
+body{
+    background-color: white;
+}
+#cont{
+    margin: auto;
+    width: 80%;
+    border: 1px solid rgba(0, 0, 0, 0.41);
+    border-radius: 5px;
+    background-color: rgba(138, 138, 138, 0.136);
+    min-height: 600px;
+}
+h1,h3{
+    text-align: center;
+}
+#cont{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(173, 216, 230, 0.856);
+    border: none;
+}
+#cont > form{
+    margin: 5%;
+    width: 30%;
+    padding: 15px;
+}
+#registrarProd{
+    display: flex;
+    flex-direction: column;
+}
+.boton{
+    height: 30px;
+    margin: auto;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.botones{
+    margin-top: 20px ;
+    display: flex;
+}
+.productosDiv{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+    border-bottom: 1px solid black;
+}
+.productosDiv > button{
+    margin-left: 15px;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+}

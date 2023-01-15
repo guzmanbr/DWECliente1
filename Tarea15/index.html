@@ -14,23 +14,23 @@
     <h1>Tarea 15</h1>
 
     <div id="cont">
-        <form>
+        <form method="get">
             <h3>Registrar Productos</h3>
             <div id="registrarProd">
                 <label for="nombre">Nombre:</label>
-                <input type="text" name="nombre" id="idnombre">
+                <input type="text" name="nombre" id="idnombre" required>
                 <label for="nombre">Precio:</label>
-                <input type="text" name="precio" id="idprecio">
+                <input type="text" name="precio" id="idprecio" required>
             </div>
             <div class="botones">
                 <button type="reset" class="boton">Restablecer</button>
-                <button type="button" class="boton" id="guardar">Guardar</button>
+                <button type="submit" class="boton" id="guardar">Guardar</button>
             </div>
         </form>
 
         <form>
             <h3>Lista Productos</h3>
-            <ul id="listaProductos"></ul>
+            <div id="listaProductos"></div>
             <div class="botones">
                 <button type="button" class="boton" id="eliminar">Eliminar todo</button>
                 <button type="button" class="boton" id="limpiar">Limpiar vista</button>

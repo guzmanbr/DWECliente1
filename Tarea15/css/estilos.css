@@ -1,0 +1,29 @@
+
+h1,h3{
+    text-align: center;
+}
+#cont{
+    display: flex;
+    justify-content: center;
+}
+#cont > form{
+    margin: 5%;
+    width: 30%;
+    padding: 15px;
+}
+#registrarProd{
+    display: flex;
+    flex-direction: column;
+}
+
+.boton{
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.219);
+    border: none;
+    margin: auto;
+}
+.botones{
+    margin-top: 20px ;
+    display: flex;
+}
+
