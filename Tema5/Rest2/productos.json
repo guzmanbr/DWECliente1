@@ -1,0 +1,20 @@
+{
+  "peliculas": [
+    {
+      "id": 1,
+      "name": "Teclado",
+      "descrip": "Tecladomecanico"
+    },
+    {
+      "id": 2,
+      "name": "Monitor",
+      "descrip": "Tecladomecanico"
+    },
+    {
+      "id": 3,
+      "name": "Raton",
+      "descrip": "Tecladomecanico"
+    }
+    
+  ]
+}

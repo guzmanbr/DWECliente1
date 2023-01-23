@@ -14,7 +14,7 @@
     },
     {
       "id": 3,
-      "nombre": "Todo Sobre Mi Madre",
+      "nombre": "Todo Sobre Mi Padre",
       "director": "Almodobar",
       "clasificacion": "Drama"
     },
@@ -23,12 +23,6 @@
       "nombre": "300",
       "director": "Zack Snyder",
       "clasificacion": "Acción"
-    },
-    {
-      "id": 5,
-      "nombre": "El silencio de los corderos",
-      "director": "Jonathan Demme",
-      "clasificacion": "Drama"
     },
     {
       "id": 6,
@@ -40,19 +34,13 @@
       "id": 7,
       "nombre": "Las Hurdes",
       "director": "Luis Buñuel",
-      "clasificacion": "Documental"
+      "clasificacion": "Dibujos"
     },
     {
       "nombre": "Dumbo",
-      "director": "Transito",
+      "director": "Tránsito",
       "clasificacion": "Dibujos",
       "id": 8
-    },
-    {
-      "nombre": "101 Dalmatas",
-      "director": "Transito",
-      "clasificacion": "Dibujos",
-      "id": 9
     }
   ],
   "clasificaciones": [
@@ -71,6 +59,10 @@
     {
       "nombre": "Terrorifica",
       "id": 15
+    },
+    {
+      "nombre": "Dibujos",
+      "id": 16
     }
   ]
 }
