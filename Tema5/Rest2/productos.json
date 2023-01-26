@@ -1,5 +1,5 @@
 {
-  "peliculas": [
+  "productos": [
     {
       "id": 1,
       "name": "Teclado",
@@ -8,13 +8,12 @@
     {
       "id": 2,
       "name": "Monitor",
-      "descrip": "Tecladomecanico"
+      "descrip": "Monitor SVGA"
     },
     {
       "id": 3,
       "name": "Raton",
-      "descrip": "Tecladomecanico"
+      "descrip": "Raton 16000 DPI"
     }
-    
   ]
 }
