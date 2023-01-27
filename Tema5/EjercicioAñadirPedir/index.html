@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Productos</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <h1>Peticiones AJAX</h1>
+
+        <div class="container d-flex justify-content-center" style="margin-top: 40px;">
+            <div class="row">
+                <div class="col">
+                    <form id="buscarProd">
+                        <label for="id-prod">Id producto</label>
+                        <input type="number" name="id-prod" id="id-prod">
+                        <button class="btn btn-primary" type="submit">Buscar</button>
+                        <p id="p1">Aqui pondremos el resultado:</p>
+                    </form>
+                </div>
+                <div class="col">
+                    <form id="addProd">
+                        <label for="id-prod2">Id producto</label>
+                        <input type="number" name="id-prod" id="id-prod2">
+                        <br>
+                        <label for="nombre">Nombre</label>
+                        <input type="number" name="nombre" id="nombre">
+                        <br>
+                        <label for="desc">Descripcion producto</label>
+                        <input type="number" name="desc" id="desc">
+                        <button class="btn btn-primary" type="submit">Añadir</button>
+                        <p id="p2">Aqui pondremos el resultado:</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/funciones.js"></script>
+</body>
+
+</html>

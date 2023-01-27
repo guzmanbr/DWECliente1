@@ -1,0 +1,19 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "name": "Teclado",
+      "descrip": "Tecladomecanico"
+    },
+    {
+      "id": 2,
+      "name": "Monitor",
+      "descrip": "Monitor SVGA"
+    },
+    {
+      "id": 3,
+      "name": "Raton",
+      "descrip": "Raton 16000 DPI"
+    }
+  ]
+}
