@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="shortcut icon" href="#" type="image/x-icon">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>GuzmanBenito-Tarea17</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    </head>
+
+    <body style="background-color: black;">
+        <main>
+            <h1 style="text-align: center; color: white;">Guzmán Benito - Tarea 17</h1>
+            <div class="container text-center bg-primary rounded p-4">
+                <div class="row">
+                    <div class="col">
+                        <div class="row">
+                            <div class="col-12 align-content-center">
+                                <h2>Buscar producto</h2>
+                                <div class="mb-3">
+                                    <form id="buscar">
+                                        <label for="id">ID</label>
+                                        <input type="number" class="form-control mb-2" name="id" id="id" placeholder="Introduzca ID">
+                                        <input type="submit" class="btn btn-dark" id="buscarBtn" value="Buscar">
+                                        <input name="listar" id="mostrarTodo" class="btn btn-dark" type="button" value="Mostrar Todo">
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="col-12 align-content-center">
+                                <h2>Crear producto</h2>
+                                <div>
+                                    <form id="crearProd">
+                                        <label for="name">Nombre</label>
+                                        <input type="text" name="name" class="form-control mb-2" id="nombre">
+                                        <label for="descrip">Descripcion</label>
+                                        <input type="text" name="descrip" class="form-control mb-2" id="descripcion">
+                                        <input type="submit" id="guardar" name="guardar" class="btn btn-dark" value="Guardar">
+                                        <input type="reset" id="reset" name="reset" class="btn btn-dark"  value="Borrar">
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="col-12 align-content-center">
+                                <h2>Modificar producto</h2>
+                                <div class="mb-3">
+                                    <form id="modificar">
+                                        <label for="modificarId" class="form-label">ID</label>
+                                        <input type="number" id="modificarId" class="form-control mb-2" placeholder="ID">
+                                        <label for="idNombre" class="form-label">Nombre</label>
+                                        <input type="text" id="idNombre" class="form-control mb-2" placeholder="Nombre">
+                                        <label for="idDesc" class="form-label">Descripcion</label>
+                                        <input type="text" id="idDesc" class="form-control mb-2" placeholder="Descripcion" >
+                                        <button class="btn btn-dark" type="submit" id="">Modificar</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <h2>Productos</h2>
+                        <div class="row">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Nombre</th>
+                                        <th>Descripcion</th>
+                                        <th>Modificar</th>
+                                        <th>Borrar</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="tablaDatos">
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+        </main>
+        <script src="JS/funciones.js"></script>
+    </body>
+
+</html>

@@ -1,0 +1,34 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "name": "Teclado",
+      "descrip": "Teclado mecánico"
+    },
+    {
+      "id": 2,
+      "name": "Monitor",
+      "descrip": "Monitor SVGA"
+    },
+    {
+      "id": 3,
+      "name": "Raton",
+      "descrip": "Raton"
+    },
+    {
+      "id": 4,
+      "name": "Portatil",
+      "descrip": "Portatil Asus"
+    },
+    {
+      "id": 5,
+      "name": "guzman",
+      "descrip": "guzman"
+    },
+    {
+      "id": 6,
+      "name": "Xbox",
+      "descrip": "Play 5"
+    }
+  ]
+}
