@@ -1,0 +1,22 @@
+body {
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#visitas {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: green;
+}
+
+.expiracion {
+    font-size: 14px;
+    font-style: italic;
+    color: red;
+}

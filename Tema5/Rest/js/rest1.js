@@ -24,3 +24,4 @@ peticion.addEventListener('readystatechange', function() {
 })
 
 console.log('Petición acabada');
+

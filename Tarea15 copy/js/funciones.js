@@ -60,7 +60,73 @@ function modificarProd() {
 }
 
 
+<script>
+    var mazo = {
+        "palos": ["oros", "copas", "espadas", "bastos"],
+        "naipes": [1, 2, 3, 4, 5, 6, 7, 10, 11, 12],
+        "lugar": []
+    };
 
+    function iniciar() {
+        var palo, naipe;
+        for (var i = 0; i < mazo.palos.length; i++) {
+            palo = mazo.palos[i];
+            for (var j = 0; j < mazo.naipes.length; j++) {
+                naipe = mazo.naipes[j];
+                mazo.lugar.push({
+                    "palo": palo,
+                    "naipe": naipe
+                });
+            }
+        }
+        console.log(mazo);
+        document.getElementById("div01").innerHTML = "Mazo de cartas:<br>" + JSON.stringify(mazo, null, 4);
+    }
+</script>
 
+<body>
+    <style>
+        .divSquare {
+            width: 48%;
+            height: 400px;
+            margin: 4px;
+            border: 1px solid black;
+            float: left;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+    <style>
+        .divJugador {
+            width: 48%;
+            height: 190px;
+            margin: 4px;
+            border: 1px solid black;
+            float: left;
+            text-align: center;
+            background-color: cornsilk;
+        }
+    </style>
+    <h1 style="text-align: center;">Juego de Mus</h1>
+    <div class="divSquare" id="div01" style="background-color: rgb(184, 246, 251);">
+        (01) MAZO DE CARTAS (para repartir)
+    </div>
+    <div class="divSquare" id="div02">
+        <div class="divJugador" id="divJug1">Cartas en la mano del Jugador 1</div>
+        <div class="divJugador" id="divJug2">Cartas en la mano del Jugador 2</div>
+        <div style="clear:both"></div>
+        <div class="divJugador" id="divJug3">Cartas en la mano del Jugador 3</div>
+        <div class="divJugador" id="divJug4">Cartas en la mano del Jugador 4</div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="divSquare" id="div03">
+        (03) ACCIONES:
+        <br><br>
+        <button onclick="iniciar()">Iniciar</button>
+    </div>
+    <div class="divSquare" id="div04" style="background-color: rgb(25, 204, 144);">
+            (04) TAPETE (Naipes descartados)
+        </div>
+    </body>
+</html>
 
 
