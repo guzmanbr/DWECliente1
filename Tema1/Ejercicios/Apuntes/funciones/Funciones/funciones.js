@@ -67,19 +67,19 @@ nuevaVariable();
 */
 
 //const potencia =  (base,exponente) => base**exponente;
-const potencia =  (base,exponente) => {
-    let resultado=1;
+const potencia = (base, exponente) => {
+    let resultado = 1;
     for (let i = 0; i < exponente; i++) {
-         resultado *=base;
+        resultado *= base;
     }
     return resultado;
 }
-console.log(potencia(2,3));
+console.log(potencia(2, 3));
 
-const cuadrado =(valor) => valor*valor;
+const cuadrado = (valor) => valor * valor;
 let resultado = cuadrado(2);
 
 console.log(`el cuadrado de 34 es ${resultado}`);
 
-let num=17;
+let num = 17;
 console.log(`El cuadrado de ${num} es el ${cuadrado(num)} `);
