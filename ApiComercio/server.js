@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 const mysql=require('mysql');
 const myconn = require('express-myconnection');
+const rutaP=require('./ruta_producto');
 const dbObtions={
     host:'localhost',
     port: 3306,
@@ -21,3 +22,6 @@ app.listen(9000,()=>{
 app.get('/',(req, res)=>{
     res.send("Respuestas a la ruta raiz");
 });
+
+
+

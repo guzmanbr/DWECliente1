@@ -67,6 +67,8 @@ async function repartirNaipe(nomJugador, numCartas) {
             }
         }
     }
+
+    
 }
 // Asigno el evento al boton repartir
 document.getElementById('repartirId').addEventListener('click', async (event) => {
