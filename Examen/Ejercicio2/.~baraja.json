@@ -1,0 +1,423 @@
+{
+  "palos": [
+    {
+      "id": 1,
+      "name": "OROS"
+    },
+    {
+      "id": 2,
+      "name": "COPAS"
+    },
+    {
+      "id": 3,
+      "name": "ESPADAS"
+    },
+    {
+      "id": 4,
+      "name": "BASTOS"
+    },
+    {
+      "id": 5,
+      "name": "OROS"
+    },
+    {
+      "id": 6,
+      "name": "COPAS"
+    },
+    {
+      "id": 7,
+      "name": "ESPADAS"
+    },
+    {
+      "id": 8,
+      "name": "BASTOS"
+    }
+  ],
+  "naipes": [
+    {
+      "id": 1,
+      "palo": "OROS",
+      "carta": 1,
+      "lugar": "mazo"
+    },
+    {
+      "id": 2,
+      "palo": "OROS",
+      "carta": 2,
+      "lugar": "mazo"
+    },
+    {
+      "id": 3,
+      "palo": "OROS",
+      "carta": 3,
+      "lugar": "mazo"
+    },
+    {
+      "id": 4,
+      "palo": "OROS",
+      "carta": 4,
+      "lugar": "mazo"
+    },
+    {
+      "id": 5,
+      "palo": "OROS",
+      "carta": 5,
+      "lugar": "mazo"
+    },
+    {
+      "id": 6,
+      "palo": "OROS",
+      "carta": 6,
+      "lugar": "mazo"
+    },
+    {
+      "id": 7,
+      "palo": "OROS",
+      "carta": 7,
+      "lugar": "mazo"
+    },
+    {
+      "id": 8,
+      "palo": "OROS",
+      "carta": 10,
+      "lugar": "mazo"
+    },
+    {
+      "id": 9,
+      "palo": "OROS",
+      "carta": 11,
+      "lugar": "mazo"
+    },
+    {
+      "id": 10,
+      "palo": "OROS",
+      "carta": 12,
+      "lugar": "mazo"
+    },
+    {
+      "id": 11,
+      "palo": "COPAS",
+      "carta": 1,
+      "lugar": "mazo"
+    },
+    {
+      "id": 12,
+      "palo": "COPAS",
+      "carta": 2,
+      "lugar": "mazo"
+    },
+    {
+      "id": 13,
+      "palo": "COPAS",
+      "carta": 3,
+      "lugar": "mazo"
+    },
+    {
+      "id": 14,
+      "palo": "COPAS",
+      "carta": 4,
+      "lugar": "mazo"
+    },
+    {
+      "id": 15,
+      "palo": "COPAS",
+      "carta": 10,
+      "lugar": "mazo"
+    },
+    {
+      "id": 16,
+      "palo": "COPAS",
+      "carta": 5,
+      "lugar": "mazo"
+    },
+    {
+      "id": 17,
+      "palo": "COPAS",
+      "carta": 6,
+      "lugar": "mazo"
+    },
+    {
+      "id": 18,
+      "palo": "COPAS",
+      "carta": 7,
+      "lugar": "mazo"
+    },
+    {
+      "id": 19,
+      "palo": "COPAS",
+      "carta": 11,
+      "lugar": "mazo"
+    },
+    {
+      "id": 20,
+      "palo": "COPAS",
+      "carta": 12,
+      "lugar": "mazo"
+    },
+    {
+      "id": 21,
+      "palo": "ESPADAS",
+      "carta": 1,
+      "lugar": "mazo"
+    },
+    {
+      "id": 22,
+      "palo": "ESPADAS",
+      "carta": 2,
+      "lugar": "mazo"
+    },
+    {
+      "id": 23,
+      "palo": "ESPADAS",
+      "carta": 3,
+      "lugar": "mazo"
+    },
+    {
+      "id": 24,
+      "palo": "ESPADAS",
+      "carta": 4,
+      "lugar": "mazo"
+    },
+    {
+      "id": 25,
+      "palo": "ESPADAS",
+      "carta": 5,
+      "lugar": "mazo"
+    },
+    {
+      "id": 26,
+      "palo": "ESPADAS",
+      "carta": 6,
+      "lugar": "mazo"
+    },
+    {
+      "id": 27,
+      "palo": "ESPADAS",
+      "carta": 7,
+      "lugar": "mazo"
+    },
+    {
+      "id": 28,
+      "palo": "ESPADAS",
+      "carta": 10,
+      "lugar": "mazo"
+    },
+    {
+      "id": 29,
+      "palo": "ESPADAS",
+      "carta": 11,
+      "lugar": "mazo"
+    },
+    {
+      "id": 30,
+      "palo": "ESPADAS",
+      "carta": 12,
+      "lugar": "mazo"
+    },
+    {
+      "id": 31,
+      "palo": "BASTOS",
+      "carta": 1,
+      "lugar": "mazo"
+    },
+    {
+      "id": 32,
+      "palo": "BASTOS",
+      "carta": 2,
+      "lugar": "mazo"
+    },
+    {
+      "id": 33,
+      "palo": "BASTOS",
+      "carta": 3,
+      "lugar": "mazo"
+    },
+    {
+      "id": 34,
+      "palo": "BASTOS",
+      "carta": 4,
+      "lugar": "mazo"
+    },
+    {
+      "id": 35,
+      "palo": "BASTOS",
+      "carta": 5,
+      "lugar": "mazo"
+    },
+    {
+      "id": 36,
+      "palo": "BASTOS",
+      "carta": 6,
+      "lugar": "mazo"
+    },
+    {
+      "id": 37,
+      "palo": "BASTOS",
+      "carta": 7,
+      "lugar": "mazo"
+    },
+    {
+      "id": 38,
+      "palo": "BASTOS",
+      "carta": 10,
+      "lugar": "mazo"
+    },
+    {
+      "id": 39,
+      "palo": "BASTOS",
+      "carta": 11,
+      "lugar": "mazo"
+    },
+    {
+      "id": 40,
+      "palo": "BASTOS",
+      "carta": 12,
+      "lugar": "mazo"
+    },
+    {
+      "id": 41,
+      "palo": "OROS",
+      "carta": 1,
+      "lugar": "mazo"
+    },
+    {
+      "id": 42,
+      "palo": "OROS",
+      "carta": 2,
+      "lugar": "mazo"
+    },
+    {
+      "id": 43,
+      "palo": "OROS",
+      "carta": 3,
+      "lugar": "mazo"
+    },
+    {
+      "id": 44,
+      "palo": "OROS",
+      "carta": 4,
+      "lugar": "mazo"
+    },
+    {
+      "id": 45,
+      "palo": "OROS",
+      "carta": 5,
+      "lugar": "mazo"
+    },
+    {
+      "id": 46,
+      "palo": "OROS",
+      "carta": 6,
+      "lugar": "mazo"
+    },
+    {
+      "id": 47,
+      "palo": "OROS",
+      "carta": 7,
+      "lugar": "mazo"
+    },
+    {
+      "id": 48,
+      "palo": "OROS",
+      "carta": 10,
+      "lugar": "mazo"
+    },
+    {
+      "id": 49,
+      "palo": "OROS",
+      "carta": 11,
+      "lugar": "mazo"
+    },
+    {
+      "id": 50,
+      "palo": "OROS",
+      "carta": 12,
+      "lugar": "mazo"
+    },
+    {
+      "id": 51,
+      "palo": "COPAS",
+      "carta": 1,
+      "lugar": "mazo"
+    },
+    {
+      "id": 52,
+      "palo": "COPAS",
+      "carta": 2,
+      "lugar": "mazo"
+    },
+    {
+      "id": 53,
+      "palo": "COPAS",
+      "carta": 3,
+      "lugar": "mazo"
+    },
+    {
+      "id": 54,
+      "palo": "COPAS",
+      "carta": 4,
+      "lugar": "mazo"
+    },
+    {
+      "id": 55,
+      "palo": "COPAS",
+      "carta": 5,
+      "lugar": "mazo"
+    },
+    {
+      "id": 56,
+      "palo": "COPAS",
+      "carta": 6,
+      "lugar": "mazo"
+    },
+    {
+      "id": 57,
+      "palo": "COPAS",
+      "carta": 7,
+      "lugar": "mazo"
+    },
+    {
+      "id": 58,
+      "palo": "COPAS",
+      "carta": 10,
+      "lugar": "mazo"
+    },
+    {
+      "id": 59,
+      "palo": "COPAS",
+      "carta": 11,
+      "lugar": "mazo"
+    },
+    {
+      "id": 60,
+      "palo": "COPAS",
+      "carta": 12,
+      "lugar": "mazo"
+    },
+    {
+      "id": 61,
+      "palo": "ESPADAS",
+      "carta": 1,
+      "lugar": "mazo"
+    },
+    {
+      "id": 62,
+      "palo": "ESPADAS",
+      "carta": 2,
+      "lugar": "mazo"
+    },
+    {
+      "id": 63,
+      "palo": "ESPADAS",
+      "carta": 3,
+      "lugar": "mazo"
+    },
+    {
+      "id": 64,
+      "palo": "ESPADAS",
+      "carta": 4,
+      "lugar": "mazo"
+    }
+  ],
+  "lugar": []
+}

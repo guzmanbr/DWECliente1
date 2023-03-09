@@ -1,0 +1,11 @@
+.divSquare{
+    width:48%; height:400px; margin:4px; 
+    border:1px solid black; float: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.divJugador{
+    width:48%; height:190px; margin:4px; 
+    border:1px solid black; float: left;
+    text-align: center; background-color: cornsilk;
+}
