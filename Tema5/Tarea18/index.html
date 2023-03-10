@@ -1,43 +1,91 @@
-<!doctype html>
-<html lang="es">
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>Tarea 18 </title>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .button {
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: #4CAF50;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 10px;
+    }
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    .bola {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      float: left;
+      margin: 10px;
+      position: relative;
+      cursor: pointer;
+    }
 
-  <!-- Bootstrap CSS v5.2.1 -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-
+    .numero {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 20px;
+      color: white;
+    }
+  </style>
 </head>
-
 <body>
-  
-  <main>
-    <h1 class="display-1">Tarea 18 -Promise ALL</h1>
-    <hr>
-    <button type="button" class="btn btn-primary m-3" id="listar">Listar todos los productos</button>
-    <button type="button" class="btn btn-primary m-3" id="borrar" disabled>Borrar lista</button>
-    <ol id="categorias">
-    
-    </ol>
-  </main>
-  
+  <button class="button" id="botonBoola">Boola</button>
 
-  <script src="js/productos.js"></script>
-  
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  <script>
+    const diametrosArray = [80, 34, 50, 120, 8, 62, 17];
+    const coloresArray = [
+      'linear-gradient(to bottom, #2196f3, #009688)',
+      'linear-gradient(to left, #D196f3, #539688)',
+      'linear-gradient(to top, #5196f3, #709688)',
+      'linear-gradient(to right, #4196f3, #909688)',
+      'linear-gradient(to right, #2196f3, #D09688)'
+    ];
+    let contador = 0;
+
+    document.getElementById("botonBoola").addEventListener("click", function() {
+      contador++;
+      let diametro = diametrosArray[contador % diametrosArray.length];
+      let color = coloresArray[contador % coloresArray.length];
+
+      let bola = document.createElement("div");
+      bola.classList.add("bola");
+      bola.style.width = diametro + "px";
+      bola.style.height = diametro + "px";
+      bola.style.background = color;
+
+      let numero = document.createElement("div");
+      numero.classList.add("numero");
+      numero.innerHTML = contador.toString();
+
+      bola.appendChild(numero);
+      document.body.appendChild(bola);
+
+      bola.addEventListener("click", function() {
+        let elementos = document.getElementsByClassName("bola");
+        for (let i = 0; i < elementos.length; i++) {
+          if (elementos[i] === this) {
+            document.body.removeChild(this);
+            break;
+          }
+        }
+      });
+    });
   </script>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
-    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
-  </script>
-
 </body>
-
 </html>

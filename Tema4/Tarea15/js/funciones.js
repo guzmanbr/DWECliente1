@@ -1,5 +1,5 @@
 /*
-Se pide crear una página web que visualice y guarde en localStorage una lista de productos con su nombre y su precio 
+crea una página web que visualice y guarde en localStorage una lista de productos con su nombre y su precio 
 en euros.
 Utiliza una clase Producto con métodos set para:
 • Almacenar el nombre en formato “todo mayúsculas”.

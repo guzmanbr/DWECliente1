@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Lista de productos</title>
+    <style>
+        /* Agregamos estilos para hacer la página más moderna y elegante */
+        * {
+          box-sizing: border-box;
+        }
+        body {
+          font-family: Arial, sans-serif;
+          background-color: #f2f2f2;
+        }
+        .container {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+        }
+        .formulario {
+          background-color: #fff;
+          padding: 20px;
+          border-radius: 10px;
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+          text-align: center;
+          width: 500px;
+        }
+        h1 {
+          margin-bottom: 20px;
+        }
+        input[type="text"],
+        input[type="number"] {
+          padding: 10px;
+          border-radius: 5px;
+          border: 1px solid #ddd;
+          margin-bottom: 20px;
+          width: 100%;
+        }
+        input[type="submit"],
+        button {
+          background-color: #4CAF50;
+          color: #fff;
+          padding: 10px 20px;
+          border-radius: 5px;
+          border: none;
+          cursor: pointer;
+        }
+        input[type="submit"]:hover,
+        button:hover {
+          background-color: #3e8e41;
+        }
+        .lista {
+          background-color: #fff;
+          padding: 20px;
+          border-radius: 10px;
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+          text-align: left;
+          width: 500px;
+          margin-left: 20px;
+        }
+        ul {
+          list-style: none;
+          padding: 0;
+        }
+        li {
+          margin-bottom: 10px;
+        }
+        .mensajeListaVacia {
+          text-align: center;
+          font-style: italic;
+          color: #aaa;
+        }
+      </style>
+  </head>
+  <body>
+    <h1>Lista de productos</h1>
+    <div>
+      <input type="text" id="nombre" placeholder="Nombre del producto">
+      <input type="number" id="precio" step="0.01" placeholder="Precio en euros">
+      <button id="guardar">Guardar</button>
+      <button id="reset">Restablecer</button>
+      <button id="borrarLista">Borrar lista</button>
+      <button id="eliminarAlmacenamiento">Eliminar del almacenamiento</button>
+    </div>
+    <hr>
+    <div id="lista">
+      <p id="mensajeListaVacia">Lista vacía</p>
+    </div>
+  </body>
+  <script src="funciones.js"></script>
+</html>
